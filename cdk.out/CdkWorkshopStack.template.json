@@ -41,7 +41,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
      },
-     "S3Key": "b12b4d45960ea908338c4544bcac8039b13736e6d6af9e8a85ef57f538e29706.zip"
+     "S3Key": "f4edeb8fcfa14581c58bc82755ad0fc53ce3cde18463aed74206d974abbdacf1.zip"
     },
     "Role": {
      "Fn::GetAtt": [
@@ -57,7 +57,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "CdkWorkshopStack/HelloHandler/Resource",
-    "aws:asset:path": "asset.b12b4d45960ea908338c4544bcac8039b13736e6d6af9e8a85ef57f538e29706",
+    "aws:asset:path": "asset.f4edeb8fcfa14581c58bc82755ad0fc53ce3cde18463aed74206d974abbdacf1",
     "aws:asset:is-bundled": false,
     "aws:asset:property": "Code"
    }
